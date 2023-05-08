@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550B5E9B29F8FE04005F02BD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B5E9A29F8FE04005F02BD /* Question.swift */; };
+		550B5E9D29F902CB005F02BD /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B5E9C29F902CB005F02BD /* ChoiceTextView.swift */; };
+		5557DFE22A0104C200A1DD66 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557DFE12A0104C200A1DD66 /* GameViewModel.swift */; };
+		5557DFE42A0108DB00A1DD66 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557DFE32A0108DB00A1DD66 /* QuestionView.swift */; };
+		5557DFE62A0111F700A1DD66 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557DFE52A0111F700A1DD66 /* ScoreView.swift */; };
+		5557DFE82A01155A00A1DD66 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557DFE72A01155A00A1DD66 /* ScoreViewModel.swift */; };
+		5587F67C29FE746100CCBDCE /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5587F67B29FE746100CCBDCE /* WelcomeView.swift */; };
+		5587F67E29FE793F00CCBDCE /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5587F67D29FE793F00CCBDCE /* GameColor.swift */; };
+		5587F68029FE7B6700CCBDCE /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5587F67F29FE7B6700CCBDCE /* BottomTextView.swift */; };
+		55CB842E29F5C4080081E595 /* Jas_s_Code_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB842D29F5C4080081E595 /* Jas_s_Code_HistoryApp.swift */; };
+		55CB843029F5C4080081E595 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB842F29F5C4080081E595 /* GameView.swift */; };
+		55CB843229F5C40A0081E595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CB843129F5C40A0081E595 /* Assets.xcassets */; };
+		55CB843629F5C40A0081E595 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CB843529F5C40A0081E595 /* Preview Assets.xcassets */; };
+		55EB6B3429FBB30A006A396C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EB6B3329FBB30A006A396C /* Game.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		550B5E9A29F8FE04005F02BD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		550B5E9C29F902CB005F02BD /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		5557DFE12A0104C200A1DD66 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		5557DFE32A0108DB00A1DD66 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		5557DFE52A0111F700A1DD66 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		5557DFE72A01155A00A1DD66 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		5587F67B29FE746100CCBDCE /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = "Jas's Code History/WelcomeView.swift"; sourceTree = SOURCE_ROOT; };
+		5587F67D29FE793F00CCBDCE /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		5587F67F29FE7B6700CCBDCE /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		55CB842A29F5C4080081E595 /* Jas's Code History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jas's Code History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CB842D29F5C4080081E595 /* Jas_s_Code_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jas_s_Code_HistoryApp.swift; sourceTree = "<group>"; };
+		55CB842F29F5C4080081E595 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		55CB843129F5C40A0081E595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55CB843329F5C40A0081E595 /* Jas_s_Code_History.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jas_s_Code_History.entitlements; sourceTree = "<group>"; };
+		55CB843529F5C40A0081E595 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55EB6B3329FBB30A006A396C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55CB842729F5C4080081E595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5557DFE02A01049900A1DD66 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5557DFE12A0104C200A1DD66 /* GameViewModel.swift */,
+				5557DFE72A01155A00A1DD66 /* ScoreViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		55CB842129F5C4080081E595 = {
+			isa = PBXGroup;
+			children = (
+				55CB842C29F5C4080081E595 /* Jas's Code History */,
+				55CB842B29F5C4080081E595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55CB842B29F5C4080081E595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55CB842A29F5C4080081E595 /* Jas's Code History.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55CB842C29F5C4080081E595 /* Jas's Code History */ = {
+			isa = PBXGroup;
+			children = (
+				5557DFE02A01049900A1DD66 /* ViewModels */,
+				55EB6B3629FBB37C006A396C /* Views */,
+				55EB6B3529FBB33F006A396C /* Models */,
+				55CB842D29F5C4080081E595 /* Jas_s_Code_HistoryApp.swift */,
+				55CB843129F5C40A0081E595 /* Assets.xcassets */,
+				55CB843329F5C40A0081E595 /* Jas_s_Code_History.entitlements */,
+				55CB843429F5C40A0081E595 /* Preview Content */,
+			);
+			path = "Jas's Code History";
+			sourceTree = "<group>";
+		};
+		55CB843429F5C40A0081E595 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55CB843529F5C40A0081E595 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55EB6B3529FBB33F006A396C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				550B5E9A29F8FE04005F02BD /* Question.swift */,
+				55EB6B3329FBB30A006A396C /* Game.swift */,
+				5587F67D29FE793F00CCBDCE /* GameColor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55EB6B3629FBB37C006A396C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5587F67B29FE746100CCBDCE /* WelcomeView.swift */,
+				55CB842F29F5C4080081E595 /* GameView.swift */,
+				550B5E9C29F902CB005F02BD /* ChoiceTextView.swift */,
+				5587F67F29FE7B6700CCBDCE /* BottomTextView.swift */,
+				5557DFE32A0108DB00A1DD66 /* QuestionView.swift */,
+				5557DFE52A0111F700A1DD66 /* ScoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55CB842929F5C4080081E595 /* Jas's Code History */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CB843929F5C40A0081E595 /* Build configuration list for PBXNativeTarget "Jas's Code History" */;
+			buildPhases = (
+				55CB842629F5C4080081E595 /* Sources */,
+				55CB842729F5C4080081E595 /* Frameworks */,
+				55CB842829F5C4080081E595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jas's Code History";
+			productName = "Jas's Code History";
+			productReference = 55CB842A29F5C4080081E595 /* Jas's Code History.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55CB842229F5C4080081E595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					55CB842929F5C4080081E595 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 55CB842529F5C4080081E595 /* Build configuration list for PBXProject "Jas's Code History" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55CB842129F5C4080081E595;
+			productRefGroup = 55CB842B29F5C4080081E595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55CB842929F5C4080081E595 /* Jas's Code History */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55CB842829F5C4080081E595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CB843629F5C40A0081E595 /* Preview Assets.xcassets in Resources */,
+				55CB843229F5C40A0081E595 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55CB842629F5C4080081E595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5557DFE42A0108DB00A1DD66 /* QuestionView.swift in Sources */,
+				550B5E9B29F8FE04005F02BD /* Question.swift in Sources */,
+				5587F67C29FE746100CCBDCE /* WelcomeView.swift in Sources */,
+				5557DFE82A01155A00A1DD66 /* ScoreViewModel.swift in Sources */,
+				55EB6B3429FBB30A006A396C /* Game.swift in Sources */,
+				55CB843029F5C4080081E595 /* GameView.swift in Sources */,
+				5587F68029FE7B6700CCBDCE /* BottomTextView.swift in Sources */,
+				5557DFE22A0104C200A1DD66 /* GameViewModel.swift in Sources */,
+				5557DFE62A0111F700A1DD66 /* ScoreView.swift in Sources */,
+				5587F67E29FE793F00CCBDCE /* GameColor.swift in Sources */,
+				550B5E9D29F902CB005F02BD /* ChoiceTextView.swift in Sources */,
+				55CB842E29F5C4080081E595 /* Jas_s_Code_HistoryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55CB843729F5C40A0081E595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55CB843829F5C40A0081E595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		55CB843A29F5C40A0081E595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Jas's Code History/Jas_s_Code_History.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jas's Code History/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jase.Jas-s-Code-History";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55CB843B29F5C40A0081E595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Jas's Code History/Jas_s_Code_History.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jas's Code History/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jase.Jas-s-Code-History";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55CB842529F5C4080081E595 /* Build configuration list for PBXProject "Jas's Code History" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CB843729F5C40A0081E595 /* Debug */,
+				55CB843829F5C40A0081E595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CB843929F5C40A0081E595 /* Build configuration list for PBXNativeTarget "Jas's Code History" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CB843A29F5C40A0081E595 /* Debug */,
+				55CB843B29F5C40A0081E595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55CB842229F5C4080081E595 /* Project object */;
+}
